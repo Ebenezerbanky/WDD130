@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+root {
+    --primary-color: #03A9F4;
+    --secondary-color: #8BC34A;
+    --accent1-color: ;#red;
+    --accent2-color: rgb(39, 24, 24);
+
+    --heading-font: '----', serif;
+    --paragraph-font: '----',serif;
+
+    --nav-background-color: rgb(59, 45, 18);
+    --nav-link-color: pink;
+    --nav-hover-link-color:orange;
+    --nav-hover-background-color:brown;     
+}
