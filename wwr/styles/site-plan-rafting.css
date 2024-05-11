@@ -4,17 +4,17 @@ body {
     max-width:  960px;
     padding:  20px;
 }
-: :root {
-    --primary-color: #xxxxxx;
-    --secondary-color: #xxxxxx;
-    --accent1-color: #xxxxxx;
-    --accent2-color: #xxxxxx;
+::root {
+    --primary-color: #03A9F4;
+    --secondary-color: #8BC34A;
+    --accent1-color: ;
+    --accent2-color: rgb(39, 24, 24);
 
     --heading-font: '----', serif;
     --paragraph-font: '----',serif;
 
-    --nav-background-color: #xxxxxx;
-    --nav-link-color: #xxxxxx;
+    --nav-background-color: rgb(59, 45, 18);
+    --nav-link-color: pink;
     --nav-hover-link-color: #xxxxxx;
     --nav-hover-background-color: #xxxxxx;     
 }
@@ -26,7 +26,7 @@ body {
   
   h1, h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var blue;
   }
   
 header {
