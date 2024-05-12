@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+img {
+    position: relative;
+}
+
+.WHITE WATER RAFTING{
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate();
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 :root {
   --primary-color: #03A9F4;
@@ -9,10 +23,10 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-  max-width: 1200px; /* Limit the entire width of the page */
-  margin: 0 auto; /* Center the page */
+  margin: 30;
+  padding: 50;
+  max-width: 120px; /* Limit the entire width of the page */
+  margin: 40 auto; /* Center the page */
 }
 
 h1, h2, h3, h4, h5, h6 {
