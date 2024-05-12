@@ -3,16 +3,32 @@ img {
     position: relative;
 }
 
-.WHITE WATER RAFTING{
-    position: absolute;
-    top:50% ;
-    left: 50%;
-    transform: translate();
-    text-align: center;
-    color: #000;
-    font-size: 24px;
-    font-weight: bold;
+.hero img {
+  display:block;
+  width: 100%;
+  height:auto;
+  float: right;
 }
+
+h1 {
+   position: absolute;
+  }
+  
+  article {
+    position: absolute;
+  }
+  
+  article img {
+    float: right;
+    margin: 10px; /* adds some space between the image and the paragraph */
+  }
+  
+  article p {
+    overflow: auto; /* clears the float */
+    color: #fff; /* white text color */
+  }
+  
+
 
 :root {
   --primary-color: #03A9F4;
