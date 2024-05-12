@@ -1,16 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 
-root {
-    --primary-color: #03A9F4;
-    --secondary-color: #8BC34A;
-    --accent1-color: ;#red;
-    --accent2-color: rgb(39, 24, 24);
+:root {
+  --primary-color: #03A9F4;
+  --secondary-color: #8BC34A;
+  --accent-color: #FFC107;
+  --background-color: #F7F7F7;
+}
 
-    --heading-font: '----', serif;
-    --paragraph-font: '----',serif;
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px; /* Limit the entire width of the page */
+  margin: 0 auto; /* Center the page */
+}
 
-    --nav-background-color: rgb(59, 45, 18);
-    --nav-link-color: pink;
-    --nav-hover-link-color:orange;
-    --nav-hover-background-color:brown;     
+h1, h2, h3, h4, h5, h6 {
+  color: var(blue);
+}
+
+p {
+  color: var(orange);
+}
+
+a {
+  text-decoration: none; /* Remove underlines from social media links */
+}
+
+.social-media-links {
+  color: var(--accent-color);
+}
+
+.social-media-links:hover {
+  color: var(--primary-color);
 }
