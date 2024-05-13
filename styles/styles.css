@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -40,8 +41,18 @@ p {
   padding: 10px;
 }
 
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
 aside {
-    width: 20em;
+    width: 20rem;
     margin: 1em;
     border: 1px solid rgba(68, 50, 50, 0.2); /* why use rgba instead of hrx here? */
     padding: 1em; 
@@ -49,6 +60,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 } 
 
 aside img {
@@ -63,7 +76,7 @@ aside h2 {
 }
 
 
-footer {
+header, .grid footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
@@ -76,20 +89,4 @@ footer {
   padding: 1rem;
   background-color: white;
   color: #000
-}
-.grid {
-  display: grid;
-  align-items: center;
-}
-
-main {
-  grid-column: 2/3;
-  margin: 1rem;
-}
-
-aside {
-  width: 20rem;
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
 }
