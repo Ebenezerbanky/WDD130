@@ -92,7 +92,7 @@ footer {
 }
 
 .column1 {
- G grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1fr;
   margin: 0.5rem 0;
 }
 
