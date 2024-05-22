@@ -11,10 +11,12 @@ body {
 }
 
 header {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	align-items: center;
 	background-color: var(--primary-color);
 	color: #fff;
 	padding: 1em;
-	text-align: center;
 }
 
 header img {
@@ -24,9 +26,11 @@ header img {
 }
 
 nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: var(--secondary-color);
 	padding: 1em;
-	text-align: center;
 }
 
 nav a {
@@ -35,66 +39,44 @@ nav a {
 	margin: 0 1em;
 }
 
-.hero {
-	position: relative;
-	background-image: url("river-wide2.jpeg");
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-}
-
-.hero img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.hero h1 {
-	color: #fff;
-	font-size: 2em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-article {
-	background-color: rgba(255, 255, 255, 0.8);
-	padding: 1em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-article img {
-	width: 50px;
-	height: auto;
-	margin: 0 1em;
-	float: right;
-}
-
-section {
+.history {
 	background-color: var(--background-color);
 	padding: 1em;
 }
 
-section h2 {
+.history h2 {
 	color: var(--primary-color);
 }
 
-section p {
+.history p {
 	color: var(--secondary-color);
+}
+
+.adventures {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+figure {
+	margin: 0 1em;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+figcaption {
+	color: var(--primary-color);
+	font-size: 1.2em;
 }
 
 footer {
 	background-color: var(--primary-color);
 	color: #fff;
 	padding: 1em;
-	text-align: center;
+	text-align: right;
 }
 
 footer a {
