@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #444;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#contact-info {
+    margin-bottom: 20px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 400px;
+}
+
+#employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.employee {
+    text-align: center;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form form label,
+#contact-form form input,
+#contact-form form textarea,
+#contact-form form button {
+    margin-bottom: 10px;
+}
+
+#contact-form form input,
+#contact-form form textarea {
+    padding: 10px;
+    font-size: 1em;
+}
+
+#contact-form form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
