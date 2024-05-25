@@ -57,31 +57,32 @@
             <h2>Contact Us</h2>
             <form action="/submit_form" method="POST">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+<input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label type="text"> id="purpose" name="Purpose"</label>
-                <label for="purpose">Purpose</label>
-                <div>
-                    <input type="radio" id="general" name="purpose" value="general">
-                    <label for="general">General Inquiry</label>
-                </div>
-                <div>
-                    <input type="radio" id="reservation" name="purpose" value="reservation">
-                    <label for="reservation">Reservation Question</label>
-                </div>
-                <div>
-                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                    <label for="suggestion">Website Suggestion</label>
-                </div>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+<label for="purpose">Purpose:</label>
+<div>
+    <input type="radio" id="general" name="purpose" value="general">
+    <label for="general">General Inquiry</label>
+</div>
+<div>
+    <input type="radio" id="reservation" name="purpose" value="reservation">
+    <label for="reservation">Reservation Question</label>
+</div>
+<div>
+    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+    <label for="suggestion">Website Suggestion</label>
+</div>
 
-                <div>
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+
+<div>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+</div>
                 </div>
 
                 <button type="submit">Send Message</button>
