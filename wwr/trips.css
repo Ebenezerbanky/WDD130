@@ -1,0 +1,45 @@
+/* trips.css */
+
+/* Style for the trip listings section */
+#trip-list {
+    margin-top: 20px;
+}
+
+/* Style for each individual trip */
+.trip {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style for the trip name */
+.trip h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Style for the trip description */
+.trip p {
+    color: #666;
+}
+
+/* Style for the trip details (duration, difficulty, price) */
+.trip ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the "Book Now" link */
+.trip a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.trip a:hover {
+    background-color: #0056b3;
+}
